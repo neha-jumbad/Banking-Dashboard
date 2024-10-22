@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Banking Dashboard</h1>
+        <div class="balance">
+            <p>Current Balance: $<span id="balance">1000</span></p>
+        </div>
+
+        <!-- Deposit Section -->
+        <div class="transaction">
+            <label for="depositAmount">Deposit Amount:</label>
+            <input type="number" id="depositAmount" placeholder="Enter amount">
+            <button id="depositBtn">Deposit</button>
+        </div>
+
+        <!-- Withdrawal Section -->
+        <div class="transaction">
+            <label for="withdrawAmount">Withdrawal Amount:</label>
+            <input type="number" id="withdrawAmount" placeholder="Enter amount">
+            <button id="withdrawBtn">Withdraw</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Banking Dashboard | Contact us at: 9765078677 | Email id:info@bank.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
